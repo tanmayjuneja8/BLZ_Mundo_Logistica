@@ -309,7 +309,7 @@
     position: sticky;
     bottom: 0;
     height: 10.5%;
-    z-index: 999;
+    z-index: 999999;
 }
 
 .blozum_chatbox__header {
