@@ -784,7 +784,7 @@ input {
     transition: all 0.5s ease-in-out;
 }
 
-.action {
+.blz_action {
     position: sticky;
     top: 0;
     height: 10%;
@@ -796,7 +796,7 @@ input {
     align-items: center;
 }
 
-.action-btn {
+.blz_action-btn {
     border: none;
     color: #ff4925;
     /* padding: 0.4rem 0.8rem; */
@@ -804,7 +804,7 @@ input {
     outline: none;
 }
 
-.action-btn i {
+.blz_action-btn i {
     width: auto;
     min-width: 16px;
     height: 16px;
@@ -820,7 +820,7 @@ input {
   overflow: hidden;
 } */
 
-.action-btn:hover {
+.blz_action-btn:hover {
     background-color: #ff4925;
     color: white;
     transition: all 0.3s ease-in-out;
@@ -828,7 +828,7 @@ input {
     transform: scale(1.1);
 }
 
-.action-btn:active {
+.blz_action-btn:active {
     transform: scale(0.9);
 }
 
