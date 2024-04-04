@@ -875,6 +875,24 @@ input {
     outline: none;
 }
 
+.logtalk_buynow {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    outline: none;
+}
+
+.logtalk_buynow:hover {
+    background-color: #e61111;
+    color: "white";
+    outline: none;
+}
+
+.logtalk_buynow:active {
+    background-color: #e61111;
+    color: "white";
+    outline: none;
+}
+
 .blozum_button-3 {
     transition: all 0.3s;
     }
@@ -951,7 +969,7 @@ input {
 }
 
 .blz_init_icebreaker .icebreaker_element_icon {
-    position: absolute;
+    position: relative;
     margin-top: auto;
     align-self: flex-start;
     border-radius: 32px;
