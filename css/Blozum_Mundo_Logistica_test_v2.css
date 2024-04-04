@@ -433,18 +433,48 @@
 }
 
 .blozum {
-    color: #ababab;
-    padding-right: 4px;
-    padding-bottom: 2px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 11px;
-    line-height: 10px;
-    zoom: 1.5;
+    /* color: #ababab;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 10px;
+  line-height: 10px;
+  zoom: 1.5; */
+    align-items: flex-end;
+    display: block;
+    flex-shrink: 0;
+    height: 32px;
+    background: rgb(245, 245, 245);
+    border-radius: 20px;
+    display: block;
+    unicode-bidi: isolate;
+    pointer-events: all;
+    transition: margin 0.3s ease-out 0s, opacity 0.3s ease-out 0s;
+    z-index: 2147483002;
 }
 
-.blozum .link {
+.blozum_brand_name {
+    display: flex;
+    /* Use flexbox for easier centering */
+    justify-content: center;
+    /* Center children horizontally */
+    align-items: center;
+    /* Center children vertically */
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 8px 0px;
+    transition: all 80ms ease 0s;
+    width: 100%;
+    /* Maintains full width */
+    color: rgb(119, 118, 120) !important;
+    /* Inherits color */
+    position: relative;
+}
+
+/*.blozum .link {
     display: inline-block;
     position: relative;
     text-decoration: none;
@@ -546,7 +576,7 @@
     --line-x: 65.66%;
     --line-offset: 63.5px;
 }
-
+*/
 .rounded-svg {
     border-radius: 50%;
 }
