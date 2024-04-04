@@ -256,7 +256,7 @@
     height: 100%;
     width: 100%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    border-radius: 20px 20px 0;
+    border-radius: 20px;
 }
 
 .blozum_mobile_view_close_btn {
@@ -421,7 +421,7 @@
 .blozum_chatbox__button button {
     padding: 5px;
     background: #fff;
-    border-radius: 50px 0 50px 50px;
+    border-radius: 50px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     outline: none;
@@ -1033,7 +1033,7 @@ input {
     }
 
     .blozum_chatbox__button {
-        z-index: 100;
+        z-index: 100000;
     }
 
     .blozum_chatbox__footer {
